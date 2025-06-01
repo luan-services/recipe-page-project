@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Outfit;
+  src: url("../src/assets/fonts/outfit/Outfit-VariableFont_wght.ttf"), format("ttf");
+}
+
+@font-face {
+  font-family: YoungSerif;
+  src: url("../src/assets/fonts/young-serif/YoungSerif-Regular.ttf"), format("ttf");
+}
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-outfit: Outfit, "sans-serif";
+}
+
+@theme {
+  --font-youngserif: Youngserif, "sans-serif";
+}
+
+@theme {
+    --color-custom-bg: #f3e5d8;
+    --color-custom-rose-800: hsl(332, 51%, 32%);
+    --color-custom-rose-50: hsl(330, 100%, 98%);
+    --color-custom-brown-800: hsl(14, 45%, 36%);
+}
